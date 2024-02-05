@@ -1,4 +1,4 @@
-#TaskPal 
+# TaskPal 
 Your one stop solution to hasslefree home maintainence needs
 
 Many homeowners face challenges when it comes to finding reliable and skilled domestic workers for home maintenance and repairs. The process of searching for workers, scheduling appointments, and ensuring quality service can be time-consuming and frustrating.
