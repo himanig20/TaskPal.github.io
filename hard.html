@@ -75,7 +75,7 @@ div form {
 
 
 * {box-sizing: border-box}
-/* Full-width input fields */
+
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -85,13 +85,13 @@ input[type=text], input[type=password] {
     background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
+
 input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
 
-/* Set a style for all buttons */
+
 div div button {
     background-color: black;
     color: white;
@@ -107,13 +107,12 @@ button:hover {
     opacity:1;
 }
 
-/* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
+
 .cancelbtn, .signupbtn {
   float: left;
   width: 50%;
@@ -168,14 +167,14 @@ hr {
     cursor: pointer;
 }
 
-/* Clear floats */
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
        width: 100%;
@@ -218,17 +217,17 @@ hr {
       <input type="text" placeholder="Enter The Date" name="appdate" id="appdate" required>
 
       <label for="engine"><b>Issue to work on</b></label>
-      <input type="text" placeholder="Car Engine" name="engine" id="engine" required>
+      <input type="text" placeholder="Broken lock" name="engine" id="engine" required>
       
       <label for="carno"><b>Materials that may be needed</b></label>
-      <input type="carno" placeholder="Car No" name="carno" id="carno" required> <br><br>
+      <input type="carno" placeholder="harrison locks,etc" name="carno" id="carno" required> <br><br>
        
        <label for="mecha"><h3>Your preferred Worker's Name</h3></label>
        <select name="Mechanics" id="mechanic" required>
     <option value="rahim">Rahim</option>
-    <option value="karim">Karim</option>
-    <option value="mia" selected>Mia</option>
-    <option value="misha">Misha</option>
+    <option value="karim">Karimish</option>
+    <option value="mia" selected>Minra</option>
+    <option value="misha">Mishant</option>
   </select>
 
 
@@ -251,10 +250,10 @@ hr {
 </div>
 
 <script>
-// Get the modal
+
 var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
+
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
