@@ -9,7 +9,7 @@ Skilled domestic workers face challenges in finding consistent work opportunitie
 TaskPal aims to address these challenges by providing a convenient and efficient platform for homeowners to book skilled workers and for workers to find job opportunities.
 
 
-**Categorization**
+### Categorization
 Users will be of 2 types 
 An option for “employer” and “worker” will be there which will be having different UIs
 
@@ -17,7 +17,7 @@ Employer - will be able to see the options of mechanics, electricians , plumbers
 
 Worker - will be able to see the requirement of work needed near them and choose according the the work request and factors that suite them 
 
-**Feature and Characteristics**
+### Feature and Characteristics
 
 1. Live location of the worker helps employee book the nearest one to them and vice versa workers need not travel too far for job opportunities
 2. Fair prices will be there to ensure no discrepancies in payments
