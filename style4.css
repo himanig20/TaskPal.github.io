@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header{
+    min-height:100vh ;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.jpeg);
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+
+}
+body {
+    text-align: center; /* Center the content horizontally */
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Add margin at the top for spacing */
+}
+
+.center-container img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container width */
+}
+
+#map {
+    height: 400px;
+    width: 95%;
+    margin-bottom: 20px; /* Add margin at the bottom of the map */
+}

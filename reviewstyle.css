@@ -1,0 +1,92 @@
+/* Styling for the Ratings and Reviews Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    
+    background-image: url('images/bgbg.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#average-rating {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#reviews-list {
+    margin-bottom: 30px;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    margin: 10px 0;
+}
+
+.review .rating {
+    font-weight: bold;
+    color: #f0ad4e;
+}
+
+#review-form {
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#review-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#review-form input[type="number"],
+#review-form textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#review-form textarea {
+    height: 100px;
+}
+
+#review-form button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#review-form button:hover {
+    background-color: #0056b3;
+}

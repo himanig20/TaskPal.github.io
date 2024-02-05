@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MECHANICS NEAR YOU</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+</head>
+    <style>
+
+
+
+        #map{
+            height: 400px;
+            width: 95%;
+        }
+        body {
+            text-align: center; /* Center the content horizontally */
+        }
+
+        .center-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .center-container img{
+            display: inline-block; /* Center block-level elements horizontally */
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+
+<body>
+    <h1>MECHANICS AVAILABLE NEAR YOU</h1>
+    <div id="map"></div>
+    <div class="center-container">
+        <img src="map.jpeg" alt="Active Workers open to work">
+    </div>
+    <script>
+        function initMap(){
+            var options={
+                zoom:8,
+                center:{lat:28.5482,lng:-77.2380}
+            }
+
+            var map=new google.maps.Map(document.getElementbyId('map',options));
+
+        }
+    </script>
+    <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5wF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap">
+</script>
+
+</body>
+</html>

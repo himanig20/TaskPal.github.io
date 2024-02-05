@@ -1,0 +1,103 @@
+
+
+/* Style for the taskbar */
+.top-taskbar {
+    background-color: #333;
+    color: white;
+    padding: 5px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+  
+  /* Style for the links inside the taskbar */
+.top-taskbar h1 {
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    font-size: 30px;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 15px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* .image-row {
+    display: flex; /* Use flexbox layout */
+    
+
+  /* Style for individual images */
+/* .image-row img {
+    max-width: 50%; /* Ensure images don't exceed the width of their container */
+    /* margin: 0 10px; /* Add some space between images */
+.image-row {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center;
+    gap: 25px; /* Center items vertically */
+   
+}
+    
+      /* Style for individual images */
+.image-row img {
+    width: calc(33.33% - 10px); /* Each image takes up one-third of the container's width with some gap in between */
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 15px;
+}
+.content-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+
+  /* Style for the text */
+  .text-content {
+    flex: 1;
+    margin-right: 20px; /* Add space between text and image */
+  }
+
+  /* Style to make image responsive */
+  .content-container img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+.final-section {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 40px 20px; /* Add padding to the top and bottom */
+    text-align: center; /* Center the content horizontally */
+}
+.button-container {
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px; /* Add some space at the top */
+}
+.register-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    text-align: center; /* Ensure proper display */
+}
+
+  /* Style for button on hover */
+.register-button:hover {
+    background-color: #45a049;
+  }
