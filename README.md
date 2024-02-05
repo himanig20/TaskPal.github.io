@@ -10,7 +10,7 @@ TaskPal aims to address these challenges by providing a convenient and efficient
 
 
 ### Categorization
-Users will be of 2 types 
+Users will be of 2 types -
 An option for “employer” and “worker” will be there which will be having different UIs
 
 Employer - will be able to see the options of mechanics, electricians , plumbers , carpenter , hardware and Botany from which they can choose the type of service they want . In addition , each employer will be able to see the ratings of that particular worker
