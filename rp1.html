@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskPal</title>
+<style>
+  /* Style for the body */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg1.png'); /* Replace 'images/bg1.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Style for the TaskPal text */
+  .taskpal-text {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Style for the form container */
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* Style for form inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Style for the submit button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Style for button on hover */
+  button:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<div class="taskpal-text">
+  <h1>TaskPal</h1>
+</div>
+
+<div class="form-container">
+  <h2>Your Profile</h2>
+  <form>
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Add location(comma-separated-values)">
+    
+    <button type="submit">Sign Up</button>
+
+  </form>
+</div>
+
+</body>
+</html>
